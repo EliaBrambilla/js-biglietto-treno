@@ -1,5 +1,4 @@
-/* SCOMPOSIZIONE RAGIONAMENTO */
-/* 
+/* SCOMPOSIZIONE RAGIONAMENTO
    - chiedo età all'utente (1 var)
    - chiedo quanti km deve fare (2 var)
    - se età normale paga per i km che deve fare (3 var)
@@ -19,10 +18,11 @@ console.log(km);
 
 /* variabile prezzo per km */
 var prezzoTicket = km * 0.21;
-
 console.log(prezzoTicket);
+
 /* variabile sconto 20% minori 18 anni */
 var sconto20 = prezzoTicket * 0.2;
+
 /* variabile sconto 40% maggiori 65 anni */
 var sconto40 = prezzoTicket * 0.4;
 
@@ -42,4 +42,4 @@ var prezzoTicket = prezzoTicket;
 
 /* CALCOLO FINALE */
 /* prezzo totale biglietto */
-document.getElementById("ticket").innerHTML = "Il prezzo del tuo biglietto è: " + prezzoTicket + " euro";
+document.getElementById("ticket").innerHTML = "Il prezzo del tuo biglietto è: " +  prezzoTicket.toFixed(2) + " euro";
