@@ -1,6 +1,10 @@
+/* MIO STILE CSS */
 *{
     font-size: 1.5rem;
     background-color: orange;
     text-transform: uppercase;
     text-align: center;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px solid black;
 }
